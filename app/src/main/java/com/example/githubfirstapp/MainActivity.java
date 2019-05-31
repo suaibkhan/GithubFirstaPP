@@ -19,7 +19,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"Github",Toast.LENGTH_SHORT).show();
+                //hello
             }
         });
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"Github second",Toast.LENGTH_SHORT).show();
+                //hello
+            }
+        });
+
     }
 }
